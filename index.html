@@ -16,13 +16,13 @@
 
 <!-- Logo -->
 
-  <div class="logo">
+  <div class="logo-wrap">
     <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-white.png" class="logo" alt="node logo">
   </div>
   <br>
 
 <!-- Navbar -->
-    <nav class="container center">
+    <nav class="nav">
       <div class="nav-wrapper valign-wrapper">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sass.html">Home</a></li>
@@ -46,9 +46,13 @@
       <h2>Download for macOS (x64)</h2>
       <!-- Buttons -->
       <a class="waves-effect waves-light btn-large">8.12.0 LTS
+        <br>
+        <h6>Recommened For Most Users</h6>
       </a>
       <a class="waves-effect waves-light btn-large">10.12.0 Current
-        </a>
+        <br>
+        <h6>Latest Features</h6>
+      </a>
           <br>
 
 
@@ -74,7 +78,9 @@
       <p>Or have a look at the <a href="https://github.com/nodejs/Release#release-schedule">Long Term Support (LTS) schedule.</a>
 
       <p>Sign up for <a href="https://us14.campaign-archive.com/home/?u=c7c2e114a827812354112c23b&id=f006b61f29"> Node.js Everywhere</a>, the official Node.js Monthly Newsletter.
-
+    <br>
+    <br>
+    <br>
 
 
     </div>
@@ -85,26 +91,32 @@
 
 <!-- Footer -->
   <footer class="page-footer">
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="row">
         <div class="col l10 s12">
-          <p class="white-text">Linux Foundation Collaborative Project</p>
-          <p class="grey-text text-lighten-4">© Node.js Foundation. All Rights Reserved. Portions of this site originally © Joyent.
+          <div class="issue-link">
+            <img src="lfcp.png" class="linux" alt="linux">
+              <div class="links">
+                <a href="https://github.com/nodejs/node/issues">Report Node.js issue | </a>
+                <a href="https://github.com/nodejs/nodejs.org/issues">Report website issue | </a>
+                <a href="https://github.com/nodejs/help/issues">Get Help </a>
+              </div>
+          </div>
+            <br>
+          © Node.js Foundation. All Rights Reserved. Portions of this site originally © Joyent.
+            <br>
             <br>
           Node.js is a trademark of Joyent, Inc. and is used with its permission. Please review the Trademark Guidelines of the Node.js Foundation.
             <br>
           Linux Foundation is a registered trademark of The Linux Foundation.
             <br>
           Linux is a registered trademark of Linus Torvalds.
-            <br>
-          Node.js Project Licensing Information.</p>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
     <div class="footer-copyright">
       <div class="container">
-      © 2014 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        Node.js Project Licensing Information.
       </div>
     </div>
   </footer>
