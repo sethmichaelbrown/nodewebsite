@@ -143,3 +143,13 @@ h6{
   margin: auto;
   margin-left: 15%;
 }
+
+/* Medium Devices (tablets) */
+@media (max-width: 1000px){
+
+  .btn-large{
+    background-color: orange;
+  }
+
+
+}
